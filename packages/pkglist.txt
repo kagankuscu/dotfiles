@@ -137,7 +137,9 @@ noto-fonts-extra
 nss-mdns
 ntfs-3g
 ntp
+obsidian
 okular
+opencode
 openssh
 os-prober
 pacman-contrib
