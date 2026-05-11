@@ -117,6 +117,7 @@ alias hx="helix"
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
+alias cd=z
 
 # mkdir and cd
 mkcd() {
