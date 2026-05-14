@@ -16,3 +16,4 @@ zoxide
 resvg
 imagemagick
 git
+htop
