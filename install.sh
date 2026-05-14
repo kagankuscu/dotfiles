@@ -14,6 +14,6 @@ fi
 
 echo "Creating links with stow"
 cd ~/.dotfiles
-stow git zsh kitty starship helix
+stow git zsh kitty starship helix yazi opencode
 
 echo "Finished! 🎉"
