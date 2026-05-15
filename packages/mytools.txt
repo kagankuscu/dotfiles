@@ -17,3 +17,5 @@ resvg
 imagemagick
 git
 htop
+bat
+ttf-hack-nerd
