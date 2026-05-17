@@ -3,6 +3,8 @@ stow
 helix
 starship
 zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
 fastfetch
 yazi
 ffmpeg
