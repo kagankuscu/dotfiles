@@ -28,5 +28,7 @@ if [ -d "$zsh_plugin/zsh-syntax-highlighting" ]; then
   sudo mv "$zsh_plugin/zsh-syntax-highlighting" "$HOME/.oh-my-zsh/plugins"
 fi
 
+echo "Updated shell"
+source ~/.zshrc
 
 echo "Finished! 🎉"
