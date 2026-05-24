@@ -5,7 +5,8 @@ line-number = "relative"
 mouse = false
 bufferline = "multiple"
 color-modes = true
-# end-of-line-diagnostics = "hint"
+cursorline = true
+end-of-line-diagnostics = "disable"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -17,12 +18,22 @@ hidden = false
 
 [editor.lsp]
 display-messages = true # Show LSP status (initializing, etc)
-# display-inlay-hints = true
 
 [editor.indent-guides]
 render = true
 character = "╎"
 skip-level = 1
 
-# [editor.inline-diagnostics]
-# cursor-line = "warning" # show warnings and errors on the cursorline inline
+[editor.inline-diagnostics]
+prefix-len = 1
+max-diagnostics = 10
+cursor-line = "warning" # show warnings and errors on the cursorline inline
+other-lines = "disable"
+min-diagnostic-width = 40
+
+[keys.normal]
+A-h = ":toggle file-picker.hidden"
+
+[keys.normal.space.d]
+d = "diagnostics_picker"
+i = ":toggle inline-diagnostics.cursor-line warning hint"
