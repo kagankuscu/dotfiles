@@ -14,7 +14,7 @@ fi
 
 echo "Creating links with stow"
 cd ~/.dotfiles
-stow git zsh kitty starship helix yazi opencode
+stow git zsh kitty starship helix yazi opencode oh-my-zsh
 
 zsh_plugin=/usr/share/zsh/plugins
 

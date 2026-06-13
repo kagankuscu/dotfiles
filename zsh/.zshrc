@@ -76,6 +76,7 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
+  custom-plugins
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -108,22 +109,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-#Zoxide
-eval "$(zoxide init zsh)"
-
-# Starship
-eval "$(starship init zsh)"
-
-# Helix
-alias hx="helix"
-
-# cd
-alias ..="cd .."
-alias ...="cd ../.."
-alias cd=z
-
-# mkdir and cd
-mkcd() {
-  mkdir -p $1 && cd $1
-}
