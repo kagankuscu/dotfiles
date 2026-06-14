@@ -20,11 +20,11 @@ alias hx="helix"
 
 # Change directory contents
 alias -- -="cd -"
-alias ..="../"
-alias ...="../.."
-alias ....="../../.."
-alias .....="../../../.."
-alias ......="../../../../.."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
 
 
 # List directory contents
