@@ -28,6 +28,7 @@ alias ......="cd ../../../../.."
 
 
 # List directory contents
+alias ls="ls --color=auto"
 alias lsa="ls -lah --color=auto"
 alias l="ls -lah --color=auto"
 alias ll="ls -lh --color=auto"
