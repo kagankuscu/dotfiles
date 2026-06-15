@@ -11,6 +11,19 @@ language-servers = [ "typescript-language-server", "scls" ]
 formatter = { command = "prettier", args=["--stdin-filepath", "file.ts"]}
 
 [[language]]
+name = "python"
+language-servers = ["ty", "ruff"]
+auto-format = true
+
+[language-server.ty]
+command = "ty"
+args = ["server"]
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+
+[[language]]
 name = "bash"
 scope = "source.bash"
 injection-regex = "(shell|bash|zsh|sh)"

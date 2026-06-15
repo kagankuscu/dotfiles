@@ -2,6 +2,7 @@
 [[ $- != *i* ]] && return
 
 export EDITOR="helix"
+export PATH="${PATH}:${HOME}/.local/bin"
 
 #Zoxide
 if command -v zoxide &> /dev/null; then
